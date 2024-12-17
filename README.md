@@ -58,7 +58,7 @@ Getting source and install:
 export ROBOT_ROOT=~/robot
 export ROS2_ROOT=$ROBOT_ROOT/ros2_jazzy
 mkdir -p $ROS2_ROOT/src
-cd $ROS_ROOT
+cd $ROS2_ROOT
 vcs import --input https://raw.githubusercontent.com/ros2/ros2/jazzy/ros2.repos src
 
 sudo rosdep init
